@@ -17,7 +17,7 @@ export default function SignIn({ providers }) {
               className="group relative inline-flex items-center justify-start overflow-hidden rounded bg-white px-6 py-3 font-medium transition-all hover:bg-white"
               onClick={() => signIn(provider.id, { callbackUrl: "/" })}
             >
-              <span className="absolute bottom-0 left-0 mb-9 ml-9 h-48 w-48 -translate-x-full translate-y-full rotate-[-40deg] rounded bg-pink-400 transition-all duration-500 ease-out group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+              <span className="absolute bottom-0 left-0 mb-9 ml-9 h-48 w-48 -translate-x-full translate-y-full rotate-[-40deg] rounded bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 transition-all duration-500 ease-out group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
               <span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">
                 Sign in with {provider.name}
               </span>
